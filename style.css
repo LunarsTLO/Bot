@@ -1,0 +1,42 @@
+/* Global reset and body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* The body takes the full height of the screen with a black background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;  /* Black background */
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* The content class will hold the link */
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Styling the link */
+a {
+    font-size: 24px;
+    color: #ffcc00;  /* Gold color */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for the link */
+a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
